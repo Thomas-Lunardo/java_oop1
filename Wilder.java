@@ -20,7 +20,7 @@ public class Wilder {
 
         String nameSentance = "Je m'appelle " + this.getFirstame();
 
-        if (this.getFirstame() != "Jean-Claude") {
+        if (this.getFirstame() != "Jean-Claude" && this.aware != true ) {
             return nameSentance + " et je ne suis pas aware.";
         } else {
             return nameSentance + " et je suis aware, et 1 + 1 ça fait 11, et ça c'est grand.";
